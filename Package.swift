@@ -33,7 +33,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/google/gtm-session-fetcher.git", "3.3.0" ..< "4.0.0"),
-    .package(url: "https://github.com/oversoul-love/AppAuth-iOS.git", .branch("kw/privacy"))
+    .package(url: "https://github.com/oversoul-love/AppAuth-iOS.git", .branch("kw/visionOS"))
   ],
   targets: [
     .target(
